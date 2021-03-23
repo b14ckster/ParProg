@@ -6,9 +6,10 @@ public class HeaterAndFan {
     public  HeaterAndFan(Room r){
         room = r;
     }
+
     public void heater(){
         System.out.println("Включен обогреватель\nТекущие показатели");
-        room.setCurrentValues(room.getCurrentTemp() + 1, room.getCurrentHum() - 1);
+        room.setCurrentValues(room.getCurrentTemp() + 1, room.getCurrentHum() + 1);
         room.printCurrentIndicators();
     }
 

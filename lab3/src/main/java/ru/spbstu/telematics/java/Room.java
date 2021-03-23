@@ -11,9 +11,7 @@ public class Room implements Runnable{
        //heaterAndFan = heater;
         currentHum = h;
         currentTemp = t;
-
     }
-
 
     public void printCurrentIndicators(){
         System.out.println("Температура в комнате = " + currentTemp +
