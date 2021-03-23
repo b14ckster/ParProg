@@ -15,6 +15,8 @@ import static java.lang.Math.abs;
 public class MyHashSetValuedHashMap<K, V>
        implements SetValuedMap<K, V>
 {
+
+    private static final int INIT_MAP_CAPACITY = 16;
     
     private HashMap<K, HashSet<V>> myH;
     private int size;
@@ -25,7 +27,7 @@ public class MyHashSetValuedHashMap<K, V>
     }
 
     public MyHashSetValuedHashMap(){
-        this(16);
+        this(INIT_MAP_CAPACITY);
     }
     
 
