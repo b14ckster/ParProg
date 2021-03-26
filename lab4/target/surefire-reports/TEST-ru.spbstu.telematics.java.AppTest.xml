@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="ru.spbstu.telematics.java.AppTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="ru.spbstu.telematics.java.AppTest" time="0.073" errors="0" skipped="0">
   <properties>
+    <property name="idea.version" value="2020.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11+28"/>
-    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-11\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Луиза\Desktop\5 sem\Андрею\lab4"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.boot.library.path" value="C:\Users\B1ackster\.jdks\corretto-15.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Work_files\ParProg20\lab4"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -15,76 +16,81 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Луиза\Desktop\5 sem\Андрею\lab4"/>
+    <property name="user.dir" value="D:\Work_files\ParProg20\lab4"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11+28"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\F8C4~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\B1ACKS~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files (x86)\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="maven.ext.class.path" value="D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Visual Leak Detector\bin\Win32;C:\Program Files (x86)\Visual Leak Detector\bin\Win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk-11\bin;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Program Files\Python39\Scripts;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\Луиза\AppData\Local\Microsoft\WindowsApps;C:\Users\Луиза\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Луиза\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Java\jdk-11\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Users\Луиза\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;;C:\Users\Луиза\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="maven.conf" value="C:\Program Files (x86)\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.library.path" value="C:\Users\B1ackster\.jdks\corretto-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files (x86)\Microsoft Visual Studio\Visual Leak Detector\bin;D:\Games\PuTTY\;D:\Work files\Git\cmd;C:\Users\B1ackster\AppData\Local\Microsoft\WindowsApps;D:\MiKTeX\miktex\bin\x64\;D:\Games\Microsoft VS Code\bin;C:\Users\B1ackster\AppData\Local\GitHubDesktop\bin;D:\Work_files\IntelliJ IDEA 2020.3.2\bin;;D:\Work_files\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="59.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files (x86)\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Луиза"/>
+    <property name="user.home" value="C:\Users\B1ackster"/>
     <property name="user.timezone" value="Europe/Moscow"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1251"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Луиза"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="B1ackster"/>
+    <property name="java.class.path" value="D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-11"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 test"/>
+    <property name="java.home" value="C:\Users\B1ackster\.jdks\corretto-15.0.2"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp866"/>
-    <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.6.3\bin\.."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="D:\Work_files\IntelliJ IDEA 2020.3.2\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2018-09-25"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp866"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="java.vendor.version" value="Corretto-15.0.2.7.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.007">
-    <failure message="No tests found in ru.spbstu.telematics.java.AppTest" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in ru.spbstu.telematics.java.AppTest
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.TestCase.fail(TestCase.java:227)
-	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
-	at junit.framework.TestCase.runBare(TestCase.java:141)
-	at junit.framework.TestResult$1.protect(TestResult.java:122)
-	at junit.framework.TestResult.runProtected(TestResult.java:142)
-	at junit.framework.TestResult.run(TestResult.java:125)
-	at junit.framework.TestCase.run(TestCase.java:129)
-	at junit.framework.TestSuite.runTest(TestSuite.java:252)
-	at junit.framework.TestSuite.run(TestSuite.java:247)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+  <testcase classname="ru.spbstu.telematics.java.AppTest" name="femTest" time="0.073">
+    <failure message="expected:&lt;0.057&gt; but was:&lt;0.080418&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0.057&gt; but was:&lt;0.080418&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ru.spbstu.telematics.java.AppTest.femTest(AppTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
